@@ -1,0 +1,18 @@
+﻿<ErrorBoundary>
+    <ChildContent>
+        <Router AppAssembly="typeof(Program).Assembly">
+            <Found Context="routeData">
+                <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
+                <FocusOnNavigate RouteData="routeData" Selector="h1" />
+            </Found>
+        </Router>
+    </ChildContent>
+    <ErrorContent>
+        <div class="page">
+            <div class="content px-4">
+                <h1>Oops! We ran into a little trouble.</h1>
+                <p>Please try again later.</p>
+            </div>
+        </div>
+    </ErrorContent>
+</ErrorBoundary>
