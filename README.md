@@ -2,7 +2,7 @@
 
 ## Exception Impossible!
 
-YouTube Video: https://youtu.be/
+YouTube Video: https://youtu.be/gXgxhD5VHnE
 
 Blazor Puzzle Home Page: https://blazorpuzzle.com
 
